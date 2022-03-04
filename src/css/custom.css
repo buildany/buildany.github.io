@@ -43,6 +43,7 @@ html, html a {
   font-family: 'Maven Pro', sans-serif;
   color: var(--ifm-link-color);
   font-size: 23px;
+  margin-top: -3px;
 }
 
 .docusaurus-highlight-code-line {
