@@ -1,0 +1,81 @@
+:root {
+  --ifm-color-primary: #1e77ae;
+  --ifm-color-primary-dark: #1a6899;
+  --ifm-color-primary-darker: #165983;
+  --ifm-color-primary-darkest: #124a6d;
+  --ifm-color-primary-light: #1d77af;
+  --ifm-color-primary-lighter: #2086c5;
+  --ifm-color-primary-lightest: #2495db;
+  --ifm-code-font-size: 95%;
+  --ifm-font-family-base: 'Inter', sans-serif;
+  --ifm-font-size-base: 18px;
+  /* --ifm-background-color: rgb(241 241 241); */
+  --ifm-heading-font-family: 'Montserrat', sans-serif;
+}
+
+/* For readability concerns, you should choose a lighter palette in dark mode. */
+html[data-theme='dark'] {
+  --ifm-color-primary: #7cbfe9;
+  --ifm-color-primary-dark: #66b5e5;
+  --ifm-color-primary-darker: #51aae1;
+  --ifm-color-primary-darkest: #3b9fde;
+  --ifm-color-primary-light: ##8fc9ef;
+  --ifm-color-primary-lighter: #a6d4f2;
+  --ifm-color-primary-lightest: #bcdef5;
+}
+
+
+html[data-theme='dark'] .docusaurus-highlight-code-line {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+html, html a {
+  -webkit-font-smoothing: antialiased;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.004);
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  hyphens: auto;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700&family=Maven+Pro:wght@500;600&family=Montserrat:wght@300;400&display=swap');
+
+.navbar__title {
+  font-family: 'Maven Pro', sans-serif;
+  color: var(--ifm-link-color);
+  font-size: 23px;
+}
+
+.docusaurus-highlight-code-line {
+  background-color: rgb(72, 77, 91);
+  display: block;
+  margin: 0 calc(-1 * var(--ifm-pre-padding));
+  padding: 0 var(--ifm-pre-padding);
+}
+
+/* If you have a different syntax highlighting theme for dark mode. */
+html[data-theme='dark'] .docusaurus-highlight-code-line {
+  /* Color which works with dark mode syntax highlighting theme */
+  background-color: rgb(100, 100, 100);
+}
+
+.prism-code {
+  counter-reset: line-number;
+}
+
+.prism-code .token-line::marker {
+  color: var(--ifm-color-gray-700);
+  content: counter(line-number);
+}
+
+.prism-code .token-line {
+  counter-increment: line-number;
+  display: list-item;
+  padding-left: var(--ifm-pre-padding);
+  margin-left: var(--ifm-global-spacing);
+}
+
+.source-code-link {
+  color: #a6d4f2;
+  text-decoration: underline;
+}
+
