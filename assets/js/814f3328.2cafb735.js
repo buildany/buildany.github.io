@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkbuildany_website=self.webpackChunkbuildany_website||[]).push([[535],{45641:function(e){e.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"Solidity security","permalink":"/welcome"}]}')}}]);

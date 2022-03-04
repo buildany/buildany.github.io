@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://buildany.github.io/</id>
+    <title>Buildany Blog</title>
+    <updated>2022-02-17T00:00:00.000Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://buildany.github.io/"/>
+    <subtitle>Buildany Blog</subtitle>
+    <icon>https://buildany.github.io/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[Solidity security]]></title>
+        <id>welcome</id>
+        <link href="https://buildany.github.io/welcome"/>
+        <updated>2022-02-17T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Today I started the series of articles that cover the solidity hacks within one tutorial. It demonstrates the most common Solidity language pitfalls that may lead to smart contract security flows. The tutorial contains the smart contract with the hack implemented and the fixed smart contract.]]></summary>
+        <content type="html"><![CDATA[<p>Today I started the series of articles that cover the <a href="/docs/solidity-hacks/re-entrancy.md">solidity hacks</a> within one tutorial. It demonstrates the most common Solidity language pitfalls that may lead to smart contract security flows. The tutorial contains the smart contract with the hack implemented and the fixed smart contract.</p><p>Understanding the language implementation details is essential to avoid the issues that may lead to the brutal reality of attacks and stealing users' money. The tutorial serves as an example to developers who want to familiarize themselves with the Solidity smart contracts security concepts and best practices.</p><p><strong>Thank you for reading and good luck with building secure blockchain!</strong></p>]]></content>
+        <author>
+            <name>Kateryna Musina</name>
+            <uri>https://github.com/kkateq</uri>
+        </author>
+        <category label="solidity" term="solidity"/>
+        <category label="hack" term="hack"/>
+        <category label="attack" term="attack"/>
+        <category label="security" term="security"/>
+    </entry>
+</feed>
