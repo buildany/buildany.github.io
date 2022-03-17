@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkbuildany_website=self.webpackChunkbuildany_website||[]).push([[17],{56307:function(s){s.exports=JSON.parse('{"name":"selfdestruct","permalink":"/docs/tags/selfdestruct","docs":[{"id":"solidity-hacks/self-destruct","title":"Self destruct","description":"Description","permalink":"/docs/solidity-hacks/self-destruct"}],"allTagsPath":"/docs/tags"}')}}]);
