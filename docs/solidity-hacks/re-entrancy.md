@@ -11,7 +11,7 @@ A re-entrancy exploit happens when one contract executes an external call to ano
 
 The issue there is on line 15. The function `withdraw` sends ether to the sender via `msg.sender.call{value: bal}("")`:
 
-```solidity title=/contracts/reentrancy/EtherStore.sol sourceUrl=https://github.com/kkateq/solidity-hacks/blob/main/contracts/reentrancy/EtherStore.sol sourceClassName=source-code-link
+```solidity title=/contracts/reentrancy/EtherStore.sol sourceUrl=https://github.com/kkateq/solidity-hacks/blob/main/contracts/reentrancy/EtherStore.sol
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.10;
 
