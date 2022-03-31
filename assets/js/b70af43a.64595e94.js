@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkbuildany_website=self.webpackChunkbuildany_website||[]).push([[371],{38136:function(e){e.exports=JSON.parse('{"name":"delegatecall","permalink":"/docs/tags/delegatecall","docs":[{"id":"solidity-hacks/delegatecall","title":"Delegate call","description":"Description","permalink":"/docs/solidity-hacks/delegatecall"}],"allTagsPath":"/docs/tags"}')}}]);
