@@ -22,7 +22,7 @@ contract EtherGame {
     function deposit() public payable {
         require(msg.value == 1 ether, "You can only send 1 Ether");
 
-         // highlight-next-line
+        // highlight-next-line
         uint256 balance = address(this).balance;
         require(balance <= targetAmount, "Game is over");
 
